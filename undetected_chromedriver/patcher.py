@@ -95,7 +95,7 @@ class Patcher(object):
         if self.is_old_chromedriver:
             self.url_repo = "https://chromedriver.storage.googleapis.com"
         else:
-            self.url_repo = "https://googlechromelabs.github.io/chrome-for-testing"
+            self.url_repo = "https://chrome.mgod.top/chrome-for-testing"
 
         self.version_main = version_main
         self.version_full = None
